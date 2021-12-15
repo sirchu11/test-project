@@ -1,0 +1,47 @@
+.flex-main {
+    /* Display */
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-main > * {
+    /* Display */
+    flex: 1 100%;
+}
+.flex-header {
+    /* Box Model */
+    height: 30px;
+    /* Font or other */
+    text-align: center;
+    line-height: 30px;
+    background-color: lightgreen;
+}
+.flex-container {
+    /* Display */
+    display: flex;
+    height: calc(100vh - 60px);
+}
+.flex-footer {
+    /* Box Model */
+    height: 30px;
+    /* Font or other */
+    background-color: Orchid;
+}
+.flex-sidebar {
+    /* Box Model */
+    width: 60px;
+    height: 100%;
+    /* Font or other */
+    background-color: Gold;
+}
+.flex-content {
+    /* Box Model */
+    width: 100%;
+    /* Font or other */
+    overflow-y: auto;
+}
+.flex-content-box {
+    /* Box Model */
+    height: 1000px;
+    /* Font or other */
+    background-color:CornflowerBlue;
+}

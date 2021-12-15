@@ -1,0 +1,45 @@
+.crud-main {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+}
+.crud-header {
+    /* Box Model */
+    height: 30px;
+    /* Font or other */
+    text-align: center;
+    line-height: 30px;
+}
+.crud-content {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Box Model */
+    height: calc(100vh - 30px);
+}
+.crud-content-container {
+    /* Display */
+    display: flex;
+    /* Box Model */
+    width: 400px;
+    padding: 10px;
+    /* Font or other */
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.crud-content-container:last-child {
+    /* Font or other */
+    border-bottom: 1px solid black;
+}
+.crud-content-container:nth-child(1) {
+    /* Font or other */
+    background-color: rgb(222, 218, 218);
+    color: rgb(38, 38, 254);
+}
+.crud-content-container > p {
+    /* Display */
+    flex: 1;
+}

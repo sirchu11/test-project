@@ -1,0 +1,42 @@
+.grid-main {
+    /* Display */
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: 30px calc(100vh - 60px) 30px;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer"
+}
+.grid-header {
+    /* Box Model */
+    grid-area: header;
+    /* Font or other */
+    text-align: center;
+    line-height: 30px;
+    background-color: LightCyan;
+}
+.grid-footer {
+    /* Box Model */
+    grid-area: footer;
+    /* Font or other */
+    background-color: MediumTurquoise;
+}
+.grid-sidebar {
+    /* Box Model */
+    grid-area: sidebar;
+    /* Font or other */
+    background-color: OrangeRed;
+}
+.grid-content {
+    /* Box Model */
+    grid-area: content;
+    /* Font or other */
+    overflow-y: auto;
+}
+.grid-content-box {
+    /* Box Model */
+    height: 1000px;
+    /* Font or other */
+    background-color:Moccasin;
+}

@@ -1,0 +1,11 @@
+.logo-text{
+    /* Font or other */
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.logo-text:hover{
+    /* Font or other */
+    color: brown;
+}

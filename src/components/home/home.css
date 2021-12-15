@@ -1,0 +1,16 @@
+.home-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.home-container{
+    text-align: center;
+    margin: 0 10px;
+}
+.home-button{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
